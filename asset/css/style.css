@@ -1,0 +1,170 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #000;
+  border-bottom: 2px solid #f1c40f;
+  padding: 15px 0;
+  width: 100%;
+  /* position:fixed; */
+}
+
+header .container {
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+main{
+  padding-bottom: 600px;
+}
+.logo {
+  color: #f1c40f;
+  float: left;
+}
+
+.nav-list {
+  list-style: none;
+  float: right;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-list li a:hover {
+  color: #f1c40f;
+}
+
+/* Section chung */
+section {
+  width: 100%;             /* full ngang */
+  padding: 60px 20px;      /* khoảng cách trên dưới */
+}
+
+/* About Me */
+#about {
+  background: #222;
+}
+
+.about-box {
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.about-img {
+  float: left;
+  width: 300px;
+}
+
+.about-img img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.about-info {
+  margin-left: 340px;
+}
+
+.about-info h2 {
+  color: #f1c40f;
+  margin-bottom: 10px;
+}
+
+.about-info h3 {
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  color: #f1c40f;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+
+/* Sở Thích */
+#so-thich {
+  background: #111;
+  text-align: center;
+}
+
+.so-thich-item {
+  display: inline-block;
+  background: #222;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  min-width: 200px;
+}
+
+/* Liên Kết */
+#lien-ket {
+  background: #222;
+}
+
+#lien-ket .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#lien-ket ul {
+  list-style: none;
+}
+
+#lien-ket ul li {
+  margin-bottom: 10px;
+}
+
+#lien-ket ul li a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+#lien-ket ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-img {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-info {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
